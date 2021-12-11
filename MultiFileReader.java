@@ -20,7 +20,7 @@ public final class MultiFileReader implements Closeable {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            //close();   // it should be removed from the original code. Otherwise, all streams will be closed.
+            //close();   // it should be removed from the original code. Otherwise, all streams would be closed.
         }
     }
 
